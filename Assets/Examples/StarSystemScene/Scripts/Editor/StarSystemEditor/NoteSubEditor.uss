@@ -1,0 +1,16 @@
+.noteSubeditor {
+    background-color: rgb(38, 38, 38);
+    margin: 5px 15px;
+    padding: 5px;
+    border-width: 3px;
+    border-radius: 10;
+    border-color: rgb(68, 68, 68);
+    border-left-color: rgb(46, 49, 55);
+    border-right-color: rgb(46, 49, 55);
+    border-top-color: rgb(46, 49, 55);
+    border-bottom-color: rgb(46, 49, 55);
+}
+
+.unity-base-field__input {
+    background-color: rgb(75, 74, 74);
+}

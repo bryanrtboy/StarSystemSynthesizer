@@ -1,0 +1,27 @@
+.orbitLineSubEditor {
+    background-color: rgb(79, 84, 101);
+    margin: 0 15;
+    padding: 5;
+    border-width: 3;
+    border-radius: 10;
+    border-color: rgb(68, 68, 68);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-left-color: rgb(83, 93, 125);
+    border-right-color: rgb(83, 93, 125);
+    border-top-color: rgb(83, 93, 125);
+    border-bottom-color: rgb(83, 93, 125);
+}
+
+.unity-base-field__input {
+    background-color: rgb(72, 82, 115);
+}
+
+.btnPlanet {
+    background-color: rgb(108, 108, 108);
+}
+
+TextInput {
+}

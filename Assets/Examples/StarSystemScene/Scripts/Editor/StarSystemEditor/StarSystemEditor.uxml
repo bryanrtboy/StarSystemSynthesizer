@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="StarSystemEditor.uss" />
+    <ui:Label text="Star System" class="heading" />
+    <uie:EnumField label="Pentatonic Scale" value="Major" name="pentatonic" type="PentatonicScale, Assembly-CSharp" style="margin-bottom: 20px;" />
+    <ui:VisualElement class="container">
+        <ui:VisualElement name="orbitList" />
+        <ui:Button text="Add new orbit" name="btnAddNewOrbit" class="bigButton" />
+        <ui:Button text="Remove all orbits" name="btnRemoveAllOrbits" class="bigButton" />
+    </ui:VisualElement>
+    <ui:Button text="Refresh" display-tooltip-when-elided="true" name="refresh" class="bigButton" />
+</ui:UXML>

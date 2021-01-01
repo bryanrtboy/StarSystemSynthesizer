@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="NoteSubEditor.uss" />
+    <ui:SliderInt picking-mode="Ignore" label="Octave" value="-1" high-value="7" low-value="-1" show-input-field="true" name="octave" />
+    <uie:EnumField label="Note" name="noteValue" type="NoteValue, Assembly-CSharp" />
+    <ui:SliderInt picking-mode="Ignore" label="Pentatonic note int" value="-1" high-value="4" low-value="-1" show-input-field="true" name="pentatonicValue" tooltip="-1 = Random, otherwise note from root 0-4 of a 5 note pentatonic scale" />
+    <uie:ObjectField label="Synth Prefab" name="synthPrefab" tooltip="This prefab needs to have a synthesizer attached (helmController)" allow-scene-objects="false" />
+    <ui:Slider picking-mode="Ignore" label="Velocity" value="1" high-value="1" show-input-field="true" name="velocity" tooltip="How hard the key is pressed. 0 = Random value" />
+    <ui:Slider picking-mode="Ignore" label="Length" value="1" high-value="20" show-input-field="true" name="length" tooltip="How long the key is pressed. 0 = Random value" />
+    <ui:Slider picking-mode="Ignore" label="Size" value="1" high-value="1" show-input-field="true" name="size" tooltip="Uniform scale of the note indicator. 0 = Random value" />
+    <ui:Button text="Remove Note" display-tooltip-when-elided="true" name="btnRemove" style="margin-left: 5px; margin-right: 5px; margin-top: 10px; margin-bottom: 5px;" />
+</ui:UXML>

@@ -1,0 +1,16 @@
+.planetSubeditor {
+    background-color: rgb(123, 130, 149);
+    margin: 5 15;
+    padding: 5;
+    border-width: 3;
+    border-radius: 10;
+    border-color: rgb(68, 68, 68);
+}
+
+.unity-base-field__input {
+    background-color: rgb(75, 74, 74);
+}
+
+Label {
+    color: rgb(7, 7, 7);
+}

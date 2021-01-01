@@ -1,0 +1,535 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9067171713833645343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 6686694632646493442, guid: 08298a7720c464bd5870a0fe3e09e97d, type: 3}
+  note: 0
+  octave: 3
+  pentatonicValue: -1
+  velocity: 1
+  length: 0.2
+  size: 0.04
+--- !u!114 &-7950405405300867555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97aef0f8f7e504c7da7f9122e06919b1, type: 3}
+  m_Name: Venus
+  m_EditorClassIdentifier: 
+  orbitDistance: 0.309
+  thickness: 0.001
+  segments: 72
+  useWaypoints: 0
+  color: {r: 1, g: 1, b: 1, a: 0.40392157}
+  planets:
+  - {fileID: 1563739898461227958}
+  notes:
+  - {fileID: -4974014324098863303}
+--- !u!114 &-7920422283160508395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &-7813769576837533192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97aef0f8f7e504c7da7f9122e06919b1, type: 3}
+  m_Name: Mars
+  m_EditorClassIdentifier: 
+  orbitDistance: 0.353
+  thickness: 0.001
+  segments: 72
+  useWaypoints: 0
+  color: {r: 1, g: 1, b: 1, a: 0.40392157}
+  planets:
+  - {fileID: -133080119333529331}
+  - {fileID: 8496694712333355517}
+  notes:
+  - {fileID: -7545120031507914590}
+--- !u!114 &-7545120031507914590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 5717346812221386238, guid: d9837bd7621e9420d953dc4c0363a48d, type: 3}
+  note: 0
+  octave: 6
+  pentatonicValue: -1
+  velocity: 0
+  length: 1
+  size: 0.1
+--- !u!114 &-6873727301117109989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &-6742295433035996367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: -20
+  distance: 0.2
+--- !u!114 &-6497155877216010303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 5717346812221386238, guid: d9837bd7621e9420d953dc4c0363a48d, type: 3}
+  note: 0
+  octave: 5
+  pentatonicValue: -1
+  velocity: 0
+  length: 0.87
+  size: 0.1
+--- !u!114 &-5452303025165316470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: Claire
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &-5405196099785840379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 100
+  distance: 0.2
+--- !u!114 &-5233635912303925816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 0}
+  note: 0
+  octave: -1
+  pentatonicValue: -1
+  velocity: 1
+  length: 1
+  size: 0.1
+--- !u!114 &-4974014324098863303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 5717346812221386238, guid: d9837bd7621e9420d953dc4c0363a48d, type: 3}
+  note: 0
+  octave: 5
+  pentatonicValue: -1
+  velocity: 1
+  length: 5.47
+  size: 0.1
+--- !u!114 &-3976106063237573473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 26.06
+  distance: 0.2
+--- !u!114 &-2415876381897661006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97aef0f8f7e504c7da7f9122e06919b1, type: 3}
+  m_Name: Earth
+  m_EditorClassIdentifier: 
+  orbitDistance: 0.351
+  thickness: 0.001
+  segments: 72
+  useWaypoints: 0
+  color: {r: 1, g: 1, b: 1, a: 0.40392157}
+  planets:
+  - {fileID: -3976106063237573473}
+  notes:
+  - {fileID: -6497155877216010303}
+--- !u!114 &-2147995703798008432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 6686694632646493442, guid: 08298a7720c464bd5870a0fe3e09e97d, type: 3}
+  note: 0
+  octave: 2
+  pentatonicValue: -1
+  velocity: 1
+  length: 6.75
+  size: 0.1
+--- !u!114 &-133080119333529331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 5
+  distance: 0.2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f8ef1fdc0974a70aa22fffb7a5410d, type: 3}
+  m_Name: StarSystem
+  m_EditorClassIdentifier: 
+  orbits:
+  - {fileID: 6086548272784328400}
+  - {fileID: -7950405405300867555}
+  - {fileID: -2415876381897661006}
+  - {fileID: -7813769576837533192}
+  pentatonic: 12
+--- !u!114 &1014419947868693571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: Jimmy
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 20
+  distance: 0.2
+--- !u!114 &1563739898461227958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &3433925688319756728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &4602132485787002889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 22
+  distance: 0.2
+--- !u!114 &4798892618881817374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 6174376638877384483, guid: 11be0f6bc96c746c2a0f96ae4994cab3, type: 3}
+  note: 12
+  octave: 3
+  pentatonicValue: -1
+  velocity: 1
+  length: 1
+  size: 0.1
+--- !u!114 &5336292311364813355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 6686694632646493442, guid: 08298a7720c464bd5870a0fe3e09e97d, type: 3}
+  note: 0
+  octave: -1
+  pentatonicValue: -1
+  velocity: 1
+  length: 1.65
+  size: 0.08
+--- !u!114 &5344491366320892392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &5397788101197968289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 6174376638877384483, guid: 11be0f6bc96c746c2a0f96ae4994cab3, type: 3}
+  note: 0
+  octave: 6
+  pentatonicValue: -1
+  velocity: 1
+  length: 1
+  size: 0.1
+--- !u!114 &6086548272784328400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97aef0f8f7e504c7da7f9122e06919b1, type: 3}
+  m_Name: Mercury
+  m_EditorClassIdentifier: 
+  orbitDistance: 0.14
+  thickness: 0.005
+  segments: 72
+  useWaypoints: 0
+  color: {r: 1, g: 1, b: 1, a: 0.40392157}
+  planets:
+  - {fileID: 6922309912258806991}
+  notes:
+  - {fileID: 8044300676285090434}
+--- !u!114 &6814397667361237033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: Mars 1
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: -20
+  distance: 0.2
+--- !u!114 &6922309912258806991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &8044300676285090434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ccf2ffe2ef34f628cf4d7dfa69810b, type: 3}
+  m_Name: New Note
+  m_EditorClassIdentifier: 
+  synth: {fileID: 5717346812221386238, guid: d9837bd7621e9420d953dc4c0363a48d, type: 3}
+  note: 0
+  octave: 3
+  pentatonicValue: -1
+  velocity: 1
+  length: 5.19
+  size: 0.1
+--- !u!114 &8124211021060292887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: Mars 2
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: 10
+  distance: 0.2
+--- !u!114 &8496694712333355517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e108e47a0094cd581b87f23a40ae15, type: 3}
+  m_Name: New Planet
+  m_EditorClassIdentifier: 
+  scale: 0.1
+  speed: -20
+  distance: 0.2

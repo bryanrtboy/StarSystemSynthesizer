@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="OrbitLineSubEditor.uss" />
+    <ui:Label text="Orbit" display-tooltip-when-elided="true" class="heading" style="-unity-font-style: normal;" />
+    <ui:TextField name="orbitName" label="Orbit Name" style="height: 19px;" />
+    <ui:Slider picking-mode="Ignore" label="Orbit Disance" value="0.1" high-value="2" name="orbitDistance" low-value="0.01" show-input-field="true" />
+    <ui:Slider picking-mode="Ignore" label="Thickness" value="0.005" high-value="1" name="thickness" low-value="0.005" show-input-field="true" />
+    <uie:IntegerField label="Line Segments" value="36" name="segments" />
+    <uie:ColorField label="Color" value="#FFFFFFFF" name="color" hdr="false" />
+    <ui:Toggle label="Use Waypoint Navigation" name="useWaypoints" />
+    <ui:VisualElement class="container" style="background-color: rgb(66, 72, 89); border-left-color: rgb(115, 118, 130); border-right-color: rgb(115, 118, 130); border-top-color: rgb(115, 118, 130); border-bottom-color: rgb(115, 118, 130);">
+        <ui:Label text="Planets" display-tooltip-when-elided="true" class="heading" style="-unity-font-style: normal; font-size: 14px;" />
+        <ui:VisualElement>
+            <ui:VisualElement name="planetList" />
+            <ui:Button text="Add new planet" name="btnAddNewPlanet" class="btnPlanet" />
+            <ui:Button text="Remove all planets" name="btnRemoveAllPlanets" class="btnPlanet" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement class="container" style="background-color: rgb(56, 59, 70); border-left-color: rgb(39, 43, 53); border-right-color: rgb(39, 43, 53); border-top-color: rgb(39, 43, 53); border-bottom-color: rgb(39, 43, 53);">
+        <ui:Label text="Notes" display-tooltip-when-elided="true" class="heading" style="-unity-font-style: normal; font-size: 14px;" />
+        <ui:VisualElement>
+            <ui:VisualElement name="noteList" />
+            <ui:Button text="Add new note" name="btnAddNewNote" />
+            <ui:Button text="Remove all notes" name="btnRemoveAllNotes" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Remove Orbit" display-tooltip-when-elided="true" name="btnRemoveOrbitLine" class="bigButton" style="background-color: rgb(87, 95, 120);" />
+</ui:UXML>

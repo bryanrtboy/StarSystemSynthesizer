@@ -1,0 +1,41 @@
+VisualElement {
+}
+
+#unity-dragger {
+    width: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(81, 81, 82);
+    border-left-color: rgb(132, 132, 132);
+    border-right-color: rgb(132, 132, 132);
+    border-top-color: rgb(132, 132, 132);
+    border-bottom-color: rgb(132, 132, 132);
+}
+
+Slider {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    max-height: 20px;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+#unity-tracker {
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+#unity-dragger-border {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}

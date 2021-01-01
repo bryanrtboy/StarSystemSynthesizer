@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="PlanetSubEditor.uss" />
+    <ui:TextField name="planetName" label="Planet Name" style="height: 19px;" />
+    <uie:FloatField name="planetScale" label="Planet Scale" />
+    <uie:FloatField name="planetSpeed" label="Planet Speed" tooltip="Negative value results in counterclockwise orbit" />
+    <ui:Button text="Remove planet" name="btnRemove" style="margin-left: 5px; margin-right: 5px; margin-top: 10px; margin-bottom: 5px;" />
+</ui:UXML>

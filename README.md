@@ -2,12 +2,12 @@
  
  ![Scenes](screenshots.jpg)
  
-This is a project to learn to use the new UI Toolkit to build an editor and runtime UI for an experimental synth/step sequencer. Note, there is no audio in this project, just the two UI systems and scripts to create orbiting object and cubes that serve as note-making collisions.
+This project uses new UI Toolkit to build an editor and runtime UI for an experimental synth/step sequencer. Note, there is no audio in this project, just the two UI systems and scripts to create orbiting object and cubes that serve as note-making collisions.
  
 Documentation for the UI Toolkit is sparse and the [Unity Royale Demo](https://github.com/Unity-Technologies/UIToolkitUnityRoyaleRuntimeDemo)
 is so complex it's hard to figure out how to implement a simple button or slider.
 
-There are 3 scenes to demonstrate various UI use cases using UI Toolkit and UI Builder.
+There are 3 scenes to demonstrate various UI use cases using UI Toolkit and UI Builder and the new Input System.
 
 ## Sliders
 This is just runtime sliders. Nothing is hooked up to them

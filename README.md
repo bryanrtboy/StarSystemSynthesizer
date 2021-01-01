@@ -20,8 +20,8 @@ It's a complex scene - select the Star System scriptable object (SO) in the edit
 The SO allows one to build an asset outside of a scene. To actually visualize the system, click the "Update" button on the system that is part of the Scene. 
 
 ## Place on Plane
-One would think placing an object on a plane in AR would be long solved, but I found the examples all had the problem of hitting a 'Done' button would cause the object to move to be under the button. There was no easy way to ignore raycasts on a plane under a button. I followed the [discussion](https://forum.unity.com/threads/is-there-a-way-to-block-raycasts.943963/#post-6188745) advice here and made a large element to block the entire screen. On top of that screen is a button. A touch returns true when over the screen and allows the placed object to be moved. When the touch is over the button, movement is not allowed.
+One would think placing an object on a plane in AR would be long solved, but I found the examples all had the problem of hitting a 'Done' button would cause the object to move to be under the button. There was no easy way to ignore raycasts on a plane under a button. I followed the [Is there a way to block raycast](https://forum.unity.com/threads/is-there-a-way-to-block-raycasts.943963/#post-6188745) suggestion to make a large element to block the entire screen. On top of that screen is a button. A touch returns true when over the screen and allows the placed object to be moved. When the touch is over the button, movement is not allowed.
 
-This scene is not using the ARFoundation, but the logic is transferrable to the Input_PlaceOnPlane example in the ARFoundation. Just use the ARRaycastManager instead of the Physics Raycaster.
+This scene is not using the ARFoundation, but the logic is transferrable to the Input_PlaceOnPlane example in the ARFoundation. Just use the ARRaycastManager instead of the Physics Raycaster. This scene has an extra standard Event System to make it work, that's not needed if you use the ARRaycastManager instead.
 
 

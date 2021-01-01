@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="PlacementControls.uss" />
+    <ui:VisualElement name="screen" style="height: 100%; justify-content: flex-end; align-items: center; width: 100%; position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+        <ui:Button text="Place" display-tooltip-when-elided="true" name="done" class="done" />
+    </ui:VisualElement>
+</ui:UXML>

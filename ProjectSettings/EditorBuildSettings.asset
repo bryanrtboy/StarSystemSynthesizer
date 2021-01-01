@@ -4,5 +4,18 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Examples/Menu.unity
+    guid: e0f7ad72cba09440a96066e590a7ff0c
+  - enabled: 1
+    path: Assets/Examples/SliderScene/Sliders.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Examples/StarSystemScene/StarSystem.unity
+    guid: 796a72c4440db4da3a2530cb62db47ca
+  - enabled: 1
+    path: Assets/Examples/PlaceOnPlane/PlaceOnPlaneScene.unity
+    guid: 7c8395efee4ad4c008747924332d88de
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c3f4d0a7e068142598610296a8f3734e, type: 2}

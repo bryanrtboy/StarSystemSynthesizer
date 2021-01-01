@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="MainMenu.uss" />
+    <ui:Button text="Slider Scene" display-tooltip-when-elided="true" name="slider" />
+    <ui:Button text="Solar System Scene" display-tooltip-when-elided="true" name="solar" />
+    <ui:Button text="Place On Plane" display-tooltip-when-elided="true" name="place" />
+</ui:UXML>

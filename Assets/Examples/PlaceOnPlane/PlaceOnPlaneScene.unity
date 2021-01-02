@@ -243,66 +243,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1107000198}
-  - component: {fileID: 1107000197}
   - component: {fileID: 1107000200}
   - component: {fileID: 1107000199}
   m_Layer: 0
-  m_Name: InputSystem
+  m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1107000197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107000196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 8c2efe8f57448473ab8d2f3098e3710b, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 1107000199}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: InputSystem_PlaceOnPlane, Assembly-CSharp
-        m_MethodName: AddObject
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 887b4a07-8f22-4b39-b134-9af1ffa26013
-    m_ActionName: ARTouchScreen/AddObject
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 60e7480e-9c78-4862-a4ab-0a4cc4a66c44
-    m_ActionName: ARTouchScreen/Click
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: New control scheme
-  m_DefaultActionMap: ARTouchScreen
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 1670063261}
 --- !u!4 &1107000198
 Transform:
   m_ObjectHideFlags: 0
@@ -331,7 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
-  m_ActionsAsset: {fileID: -944628639613478452, guid: 8c2efe8f57448473ab8d2f3098e3710b, type: 3}
+  m_ActionsAsset: {fileID: 0}
   m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_MoveAction: {fileID: -1680190386980627800, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
